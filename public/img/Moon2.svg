@@ -1,0 +1,22 @@
+<svg width="1028" height="1028" viewBox="0 0 1028 1028" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_163_11)">
+<circle cx="513.595" cy="513.597" r="351" transform="rotate(160.387 513.595 513.597)" stroke="white" stroke-width="3"/>
+<circle cx="513.595" cy="513.597" r="352.5" transform="rotate(160.387 513.595 513.597)" fill="white"/>
+<circle cx="514.409" cy="514.41" r="409.665" transform="rotate(160.387 514.409 514.41)" fill="url(#paint0_radial_163_11)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M712.96 222.859C758.81 254.245 797.59 296.658 824.816 347.972C809.663 362.834 788.902 371.999 766 371.999C719.608 371.999 682 334.391 682 287.999C682 261.722 694.066 238.262 712.96 222.859Z" fill="#D5D5D5"/>
+<circle cx="337.5" cy="375.5" r="55.5" fill="#CECECE"/>
+<circle cx="665" cy="539" r="45" fill="#D1D1D1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M755.526 770.09C721.061 802.632 679.434 828.713 631.92 845.644C623.754 848.554 615.552 851.145 607.327 853.423C600.122 840.938 596 826.45 596 811C596 764.056 634.056 726 681 726C713.114 726 741.068 743.809 755.526 770.09Z" fill="#BBBBBB"/>
+<circle cx="463.5" cy="584.5" r="70.5" fill="#D9D9D9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M165.257 568.016C168.622 589.402 174.015 610.783 181.548 631.922C195.216 670.277 214.846 704.796 239.024 734.808C254.572 717.113 264 693.908 264 668.501C264 613.583 219.951 568.953 165.257 568.016Z" fill="#CECECE"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_163_11" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(514.409 514.41) rotate(-90) scale(409.665)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_163_11">
+<rect width="1028" height="1028" fill="white"/>
+</clipPath>
+</defs>
+</svg>

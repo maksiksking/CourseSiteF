@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/default.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="../site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+
+  <!--  less-->
+  <link rel="stylesheet" type="text/css" href="css/default.css"/>
+  <link rel="stylesheet/less" type="text/css" href="css/style.less"/>
+  <script src="https://cdn.jsdelivr.net/npm/less"></script>
+
+  <!-- fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<img src="img/bannerImg.jpg" alt="bg" class="bg">
+<img src="img/banner2new.jpg" alt="bg2" class="bg2">
+<video src="img/galaxy.mp4" autoplay muted loop class="bg3"></video>
+<div class="containerOfEverything">
+  <header>
+    <p class="mainIco"><a href="#">☕ Чай</a></p>
+<!--    <p class="hTxt1">Чай </p>-->
+    <p class="hTxt2"><a href="#">Maksiks</a></p>
+    <a href="#"><div class="darkMode"></div></a>
+  </header>
+  <h1>Чай☕</h1>
+  <div class="h1Card"></div>
+  <main>
+    <div class="mainImg"></div>
+    <div class="mainImgGlass"></div>
+    <section class="textSection content1">
+      <p><span>Чай, яким щодня насолоджуються понад 3 мільярди людей, є глобальним продуктом харчування з глибоким культурним корінням і значним економічним впливом. Від розвитку спільноти до стимулювання міжнародної торгівлі, чай об’єднує людей і традиції по всьому світу. ☕</span></p>
+    </section>
+    <section class="content2">
+      <div class="pCard">
+        <div class="parent">
+          <div class="div1"><h2>База</h2></div>
+          <div class="div2"><img src="img/black_tea.jpg" alt="black_tea" class="teaThumb"></div>
+          <div class="div3"><img src="img/green_te.webp" alt="green_tea" class="teaThumb"></div>
+          <div class="div4"><p class="teaDesc"><div class="accidentalSub"><h3>Чорний Чай</h3><p>Чорний чай - це чай який більшість з нас знає і любить. Це перше по що ми йдемо у магазин коли ми думаєм про звичайний запашний чай.</p></div></div>
+          <div class="div5"><p class="teaDesc"><div class="accidentalSub"><h3>Зелений Чай</h3><p>Смак зеленого чаю впливає на світові культури. Він стимулює торгівлю та підтримує фермерські спільноти, що робить його впливовим у всьому світі.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="textSection textSection2">
+      <div class="zIndexWrapper">
+        <div class="txtSection2Real">
+          <div class="sub1txt">
+            <p><span>Кожен день люди випивають більш ніж 6 мільярдів чашок чаю. Це робить його найпопулярнішим напоєм у всьому світі, після нього кофе і безалкогольні напої (наприклад кола).</span></p>
+          </div>
+          <div class="sub2txt">
+            <img class="lilPinImg" src="img/NotLazyTeaCupSendHelp.svg" alt="teaCup">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content3">
+      <div class="pCard pCardContent3Override">
+        <div class="parent">
+          <div class="div1"><h2>Крім того існує багато інших чаїв по всьому світу</h2></div>
+          <div class="div2"><img src="img/chaiChai.png" alt="chai" class="teaThumb"></div>
+          <div class="div3"><img src="img/earl_gray.png" alt="earl gray" class="teaThumb"></div>
+          <div class="div4"><p class="teaDesc"><div class="accidentalSub"><h3>Чаі</h3><p>Чаі – це не просто чай, а культурне явище в Індії. Це міцна суміш чорного чаю та ароматних спецій, таких як кардамон, кориця, імбир та гвоздика.</p></div></div>
+          <div class="div5"><p class="teaDesc"><div class="accidentalSub"><h3>Зелений Чай</h3><p>Ерл Грей - чорний чай, настояний на олії бергамоту. Його смак і аромат мають цитрусову нотку. Сам чай досить популярний у Великій Британії та у всьому світі.</p></div></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="sub1Footer"><p>Чай ☕ футер</p></div>
+      <div class="sub2Footer"><div><a href="#"><p>Наверх ↑</p></a></div></div>
+
+      <script>
+        const darkModeButton = document.getElementsByClassName("darkMode")[0];
+
+        darkModeButton.addEventListener("click", () => {
+          less.modifyVar
+        });
+      </script>
+
+    </footer>
+  </main>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
