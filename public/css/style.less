@@ -6,19 +6,24 @@
     text-decoration: none;
     color: initial;
   }
+
   img {
     user-select: none;
   }
 }
 
-@theme-color: white;
+.themeColor {
+  background-color: white;
+}
+.themeDark {
+  background-color: #232323 !important;
+}
 
 html {
   overflow-x: clip;
 }
 
 body {
-
 }
 
 // scrollbar
@@ -75,7 +80,7 @@ header {
   flex-direction: row;
   justify-content: flex-end;
 
-  background-color: @theme-color;
+  //background-color: @theme-color;
   //background-color: #232323;
 
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -92,8 +97,6 @@ header {
     margin-right: 10vh;
     background-image: url("../img/Moon1.svg");
     background-size: cover;
-
-    display: none;
   }
 
   .mainIco {
@@ -111,6 +114,10 @@ header {
     margin-right: 8vh;
     padding-top: 2px;
   }
+}
+
+.darkModeImgSwap {
+  background-image: url("../img/Moon2.svg") !important;
 }
 
 .mainImg {
@@ -158,7 +165,7 @@ h1 {
 
 .pCard {
   z-index: 99;
-  background-color: @theme-color;
+  //background-color: @theme-color;
 
   box-shadow: rgba(52, 52, 52, 0.4) 0px 2px 4px, rgba(47, 47, 47, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
@@ -172,7 +179,7 @@ h1 {
 
 // content 1
 .textSection {
-  background-color: @theme-color;
+  //background-color: @theme-color;
   z-index: 10;
 
   // shadow
@@ -364,7 +371,7 @@ h1 {
 }
 
 footer {
-  background-color: @theme-color;
+  //background-color: @theme-color;
   box-shadow: rgba(0, 0, 0, 0.29) 0px -15px 20px, rgba(0, 0, 0, 0.33) 0px 10px 6px, rgba(0, 0, 0, 0.29) 0px 15px 20px, rgba(0, 0, 0, 0.33) 0px -10px 6px;
 
   width: 106vw;
@@ -411,3 +418,17 @@ footer {
   }
 }
 
+// anim
+
+@keyframes flip {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.flip {
+  animation: flip forwards ease-in-out 0.5s;
+}
