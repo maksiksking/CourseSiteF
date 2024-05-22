@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const darkModeButton = document.getElementsByClassName("darkMode")[0];
   const themeChange = document.getElementsByClassName("themeColor");
-  const all = document.getElementsByTagName("*");
+  const allInit = document.getElementsByTagName("*");
+
+  const content3 = document.getElementsByClassName("content3")[0];
+
+  let all = [];
+
   console.log("hai");
   let ifDark = localStorage.getItem("IfDarkMode");
 
@@ -9,13 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
     darkModify(true);
   }
 
+  for (let i = 0; i < allInit.length; i++) {
+    if (!content3.contains(allInit[i])) {
+      all.push(allInit[i]);
+    }
+  }
+
   function darkModify(auto) {
     darkModeButton.classList.remove("flip")
     darkModeButton.offsetWidth;
     ifDark = localStorage.getItem("IfDarkMode");
     if (ifDark === "true" && auto === false) {
-      console.log("haiii");
-
       for (let i = 0; i < themeChange.length; i++) {
         themeChange[i].classList.remove("themeDark");
       }
